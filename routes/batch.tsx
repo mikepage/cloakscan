@@ -14,9 +14,14 @@ export default define.page(function Batch() {
       </Head>
       <div class="px-6 md:px-12 py-8">
         <div class="max-w-4xl mx-auto">
-          <h1 class="text-2xl font-normal text-[#111] tracking-tight mb-2">
-            cloakscan <span class="text-[#999]">/ batch</span>
-          </h1>
+          <div class="flex items-baseline justify-between mb-2">
+            <h1 class="text-2xl font-normal text-[#111] tracking-tight">
+              cloakscan <span class="text-[#999]">/ batch</span>
+            </h1>
+            <a href="/" class="text-sm text-blue-600 hover:underline">
+              ← single scan
+            </a>
+          </div>
           <p class="text-[#666] text-sm mb-8">
             Scan up to 50 domains in one run. Domains are processed one at a time and results land
             in the table below as each scan finishes. For a single detailed report, use the{" "}

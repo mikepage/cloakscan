@@ -14,9 +14,14 @@ export default define.page(function Home() {
       </Head>
       <div class="px-6 md:px-12 py-8">
         <div class="max-w-4xl mx-auto">
-          <h1 class="text-2xl font-normal text-[#111] tracking-tight mb-2">
-            cloakscan
-          </h1>
+          <div class="flex items-baseline justify-between mb-2">
+            <h1 class="text-2xl font-normal text-[#111] tracking-tight">
+              cloakscan
+            </h1>
+            <a href="/batch" class="text-sm text-blue-600 hover:underline">
+              batch scan →
+            </a>
+          </div>
           <p class="text-[#666] text-sm mb-8">
             Detect cloaking. Each page is fetched as a real browser, as Googlebot, and as the Google
             AMP cache — external links, scripts and iframes served to a bot but withheld from
